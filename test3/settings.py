@@ -16,9 +16,9 @@ NEWSPIDER_MODULE = 'test3.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Mobile Safari/537.36'
-FEED_URI='/Users/wanghongyang/Desktop/pain/files/a.csv'
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36c'
 FEED_FORMAT='CSV'
+FEED_URI='/Users/zhangty/Desktop/demos/ScrapyDemo/ScrapyDemo/datas/result.csv'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -75,7 +75,7 @@ ROBOTSTXT_OBEY = True
 #AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 #AUTOTHROTTLE_START_DELAY = 5
-# The maximum download delay to be set in case of high latencies
+# The maximum download delay to be set.py in case of high latencies
 #AUTOTHROTTLE_MAX_DELAY = 60
 # The average number of requests Scrapy should be sending in parallel to
 # each remote server
